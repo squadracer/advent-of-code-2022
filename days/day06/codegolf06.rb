@@ -1,0 +1,1 @@
+gets;[4,14].map{|n|p (0..).find{!$_[_1,n].chars.uniq!}+n}

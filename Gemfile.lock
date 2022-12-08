@@ -1,0 +1,36 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.4.4)
+    matrix (0.4.2)
+    rbs (2.8.1)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.1)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.3)
+    typeprof (0.21.3)
+      rbs (>= 1.8.1)
+
+PLATFORMS
+  arm64-darwin-20
+
+DEPENDENCIES
+  matrix
+  rbs
+  rspec
+  typeprof
+
+RUBY VERSION
+   ruby 3.1.2p20
+
+BUNDLED WITH
+   2.2.22
